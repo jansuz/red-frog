@@ -13,6 +13,6 @@ cat "$uF" >> body.txt
 echo -e "\nPlease do not reply to this email. It is automatically generated.\n" >> body.txt
 cat ~/.signature >> body.txt
 
-cat body.txt | mutt -a "$oF" -s "$oF" -- jansuz@une.edu.au	
+cat body.txt | mutt -a "$oF" -s "$oF" -- username@email.address	
 
 rm "body.txt" "$oF" "$uF"
