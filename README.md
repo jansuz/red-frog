@@ -1,2 +1,2 @@
 # red-frog
-Bash scripts for managing HIBP release files.
+Scripts for HIBP API managing HIBP release files.
